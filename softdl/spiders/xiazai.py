@@ -3,6 +3,7 @@ import scrapy
 from softdl.items import SoftdlItem
 from scrapy.http import Request
 
+
 class XiazaiSpider(scrapy.Spider):
     name = 'xiazai'
     allowed_domains = ['www.xiazaiba.com']
