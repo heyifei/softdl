@@ -1,8 +1,5 @@
 # -*- coding: utf-8 -*-
 import scrapy
-import requests
-from lxml import etree
-
 from softdl.items import SoftdlItem
 from scrapy.http import Request
 
